@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  
+    background-image: url('./hero-casino-floor.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+  
+    
+}
+
+.fon{
+    background-color: rgba(137, 43, 226, 0.598);
+    height: 100%;
+}
+
+.games{
+    height: 85%;
+
+}
+
+.games li {
+     list-style: none;
+
+}
+
+.games img{
+    height: 150px;
+    width: 200px;
+    height: 80%;
+    border: 2px solid orange;
+    border-radius: 25px;
+
+
+}
+
+.games ul{
+    margin: 0;
+    display: flex;
+    gap: 4rem;
+    padding-top: 10%;
+    justify-content: center;
+}
+
+
+.navbar{
+    height: 15%;
+    background-color: #8b00e2;
+    border-bottom: 4px solid #913bff;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.navbar img{
+    
+  
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.nav{
+  
+
+    
+        background-color: #370063;
+    
+        border: 2px solid orange;
+        border-radius: 25px;
+        width: auto;
+        height: 50%;
+         width: 20%;
+    
+    
+}
+
+.money{
+   color: #f5d400;
+   font-weight: bold;
+   font-size: 180%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 15%;
+}
+
+.money img{
+    width: 17%;
+    
+ }
+
+.nav p{
+    margin: 0;
+}
+
+
+.exp{
+    color: #f5d400;
+    font-weight: bold;
+    font-size: 180%;
+    display: flex;
+   
+
+ }
+ 
+ .exp p { 
+     margin: auto auto;
+    
+     background: -webkit-linear-gradient(#0208a3, #d40cea);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+
+ }
+ .exp img{
+  
+     position: relative;
+     
+   
+
+     margin-left: -10%;
+     margin-top: -4%;
+  }
+
