@@ -17,6 +17,8 @@ body{
 .fon{
     background-color: rgba(137, 43, 226, 0.598);
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .games{
@@ -26,13 +28,14 @@ body{
 
 .games li {
      list-style: none;
+     margin: auto;
 
 }
 
 .games img{
+ 
+    width:100%;
     height: 150px;
-    width: 200px;
-    height: 80%;
     border: 2px solid orange;
     border-radius: 25px;
 
@@ -42,7 +45,7 @@ body{
 .games ul{
     margin: 0;
     display: flex;
-    gap: 4rem;
+    
     padding-top: 10%;
     justify-content: center;
 }
@@ -57,10 +60,7 @@ body{
     grid-template-columns: 1fr 1fr;
 }
 
-.navbar img{
-    
-  
-}
+
 
 .navbar{
     display: flex;
@@ -87,11 +87,11 @@ body{
 .money{
    color: #f5d400;
    font-weight: bold;
-   font-size: 180%;
+   font-size: 100%;
    display: flex;
    align-items: center;
    justify-content: center;
-   gap: 15%;
+   gap: 10%;
 }
 
 .money img{
@@ -107,7 +107,7 @@ body{
 .exp{
     color: #f5d400;
     font-weight: bold;
-    font-size: 180%;
+    font-size: 100%;
     display: flex;
    
 
@@ -124,7 +124,7 @@ body{
  .exp img{
   
      position: relative;
-     
+     width: auto;
    
 
      margin-left: -10%;
